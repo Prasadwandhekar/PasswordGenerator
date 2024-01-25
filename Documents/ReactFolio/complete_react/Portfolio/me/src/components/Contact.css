@@ -1,0 +1,157 @@
+/* .contact{
+    width:100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+.input{
+    width: 60%;
+    height: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(82,76,76);
+
+}
+
+input{
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+.message{
+    padding-bottom: 10rem;
+}
+.btn{
+    padding: 10px 40px;
+    background-color: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid blue;
+    color: orange;
+    text-transform: uppercase;
+
+}
+
+@media (max-width:550px){
+    .inputs{
+        width:80%;
+    }
+    .input{
+        padding: 15px;
+    }
+} */
+
+
+
+
+
+
+
+
+/* 
+padding: 10px 40px;
+background-color: none;
+cursor: pointer;
+margin-top: 1rem;
+border: 1px solid blue;
+color: orange;
+text-transform: uppercase; */
+
+
+
+/* Contact.css */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg rgba(216,46,8,0.085) , rgba(62,7,189,0.126));
+    color: red;
+    position: relative;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+.inputs {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(225, 117, 117, 0.973);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.message {
+    height: 70px;
+    width: 360px; /* Adjust the height based on your design */
+
+}
+
+.btn {
+    background-color: #e44d26; /* Darker orange-red color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d63a18; /* Slightly darker on hover */
+}
+
+@media (max-width:550px){
+    .inputs{
+        width:80%;
+    }
+    .input{
+        padding: 15px;
+    }
+    .message{
+        width:300px ;
+    }
+}

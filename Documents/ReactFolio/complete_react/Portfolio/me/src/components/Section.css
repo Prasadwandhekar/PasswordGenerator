@@ -1,0 +1,165 @@
+
+
+.image{
+    border-radius: 40%;
+    /* text-align: center;*/
+    margin-bottom: 70px; 
+    margin-bottom: 100px;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 4, 4);
+    font-weight: bold;
+    font-size: large;
+
+}
+.skill:hover{
+    background-color: brown;
+    
+}
+
+.section{
+    margin-top: -5px;
+}
+
+
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: -50px;
+    row-gap: 50px;
+    gap: 100px;
+
+}
+
+.mee{
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: darkgreen;
+    background-color:rgb(213, 91, 35);
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    margin-bottom: 10px;
+}
+   
+.mee:hover{
+    transition: all 1s;
+    scale: 1.2;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px){
+  
+    .img{
+        .img {
+            width: 100%; /* Set the width to 100% to prevent cropping */
+            max-width: 200px; /* You can adjust max-width as needed */
+            margin: 0 auto; /* Center the image */
+            margin-left: 50px;
+            
+            
+        }
+    }
+}
+
+
+/* .me{
+    height: 40%;
+    width: 45%;
+} */
+
+
+/*
+
+.image {
+    flex: 1;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content{
+    margin-right: 100px;
+}
+/* Section.css */
+/* 
+ .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg rgba(216,46,8,0.085) , rgba(62,7,189,0.126));
+    color: red;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+
+.content {
+    flex: 1;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .img, .content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}   */

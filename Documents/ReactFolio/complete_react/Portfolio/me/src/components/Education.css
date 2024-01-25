@@ -1,0 +1,41 @@
+/* Education.css */
+
+.education-container {
+  background-color: linear-gradient(to left bottom, #cdd21b, #d9ad00, #df8400, #de5800, #d71313);    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .education-item {
+    background-color: #ffa500; /* Orange background color for each education item */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .education-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+
+/* Education.css */
+
+/* Existing styles... */
+
+@media only screen and (min-width: 768px) {
+    .education-container {
+      padding: 40px 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .education-container {
+      padding: 40px 80px;
+    }
+  }
+  
